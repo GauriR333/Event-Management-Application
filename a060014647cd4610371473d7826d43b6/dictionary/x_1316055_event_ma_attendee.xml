@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="74944b7a83dd4210349455a6feaad3ee" label="Attendee" max_length="40" name="x_1316055_event_ma_attendee" type="collection">
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="First name" max_length="40" name="first_name" type="string"/>
+        <element label="Last name" max_length="40" name="last_name" type="string"/>
+        <element label="Marketing Event" max_length="32" name="marketing_event" reference="x_374399_event_man_marketing_event" type="reference"/>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="marketing_event"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
