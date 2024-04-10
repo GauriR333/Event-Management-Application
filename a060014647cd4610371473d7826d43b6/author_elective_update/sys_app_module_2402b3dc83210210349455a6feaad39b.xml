@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Marketing Events Application">0fdab59647c5c610371473d7826d439c</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Equipment Requests</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1316055_event_ma_equipment_request</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1316055_event_ma.equipment_request_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 06:17:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2402b3dc83210210349455a6feaad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope>
+        <sys_update_name>sys_app_module_2402b3dc83210210349455a6feaad39b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 06:17:42</sys_updated_on>
+        <timeline_page/>
+        <title>Equipment Requests</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management Application">a060014647cd4610371473d7826d43b6</application>
+        <file_path/>
+        <instance_id>fb6ede52db894e182f082a59139619f8</instance_id>
+        <instance_name>dev248345</instance_name>
+        <name>sys_app_module_2402b3dc83210210349455a6feaad39b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Marketing Events Application">0fdab59647c5c610371473d7826d439c</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Equipment Requests</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1316055_event_ma_equipment_request</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1316055_event_ma.equipment_request_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-10 06:17:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2402b3dc83210210349455a6feaad39b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Equipment Requests</sys_name><sys_overrides/><sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package><sys_policy/><sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope><sys_update_name>sys_app_module_2402b3dc83210210349455a6feaad39b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-10 06:17:42</sys_updated_on><timeline_page/><title>Equipment Requests</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-751686985</payload_hash>
+        <record_name>Equipment Requests</record_name>
+        <reverted_from/>
+        <source>ba31c44883e1c610349455a6feaad35c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 06:17:42</sys_created_on>
+        <sys_id>6c02b3dc83210210349455a6feaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ec6a7b0660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 06:17:42</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2002b3dc8a2102105055550cb3f1c49e</update_guid>
+        <update_guid_history>2002b3dc8a2102105055550cb3f1c49e:-751686985</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Equipment Requests">2192731083610210349455a6feaad32f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 06:20:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>5d1d27ec027949c0afd889eb67c0f8b1</sys_id>
+        <sys_metadata>2402b3dc83210210349455a6feaad39b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment Requests</sys_name>
+        <sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope>
+        <sys_scope_delete display_value="">2e1d08bdab234c1caad692cb642d3144</sys_scope_delete>
+        <sys_update_name>sys_app_module_2402b3dc83210210349455a6feaad39b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_2402b3dc83210210349455a6feaad39b">6c02b3dc83210210349455a6feaad39e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 06:20:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

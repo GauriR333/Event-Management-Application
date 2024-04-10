@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Equipment Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Equipment Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">050d6d1a8d30021087de63ac7f1f00ba</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 06:17:42</sys_created_on>
+        <sys_id>6c02b3dc83210210349455a6feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment Request</sys_name>
+        <sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope>
+        <sys_update_name>sys_wizard_answer_6c02b3dc83210210349455a6feaad3d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 06:17:42</sys_updated_on>
+        <table/>
+        <target_url>x_1316055_event_ma_equipment_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management Application">a060014647cd4610371473d7826d43b6</application>
+        <file_path/>
+        <instance_id>fb6ede52db894e182f082a59139619f8</instance_id>
+        <instance_name>dev248345</instance_name>
+        <name>sys_wizard_answer_6c02b3dc83210210349455a6feaad3d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Equipment Request</answer><button_label/><dependent_value/><element/><name>Equipment Request</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">050d6d1a8d30021087de63ac7f1f00ba</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-10 06:17:42</sys_created_on><sys_id>6c02b3dc83210210349455a6feaad3d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Equipment Request</sys_name><sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package><sys_policy/><sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope><sys_update_name>sys_wizard_answer_6c02b3dc83210210349455a6feaad3d9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-10 06:17:42</sys_updated_on><table/><target_url>x_1316055_event_ma_equipment_request.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1551735744</payload_hash>
+        <record_name>Equipment Request</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 06:20:17</sys_created_on>
+        <sys_id>2a92b31083610210349455a6feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ec6aa0fdd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 06:20:17</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>e692b31009610210f43a2f5c09aac64b</update_guid>
+        <update_guid_history>e692b31009610210f43a2f5c09aac64b:1551735744</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 06:20:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>59e5d19418374668b428fb0aafc31b10</sys_id>
+        <sys_metadata>6c02b3dc83210210349455a6feaad3d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment Request</sys_name>
+        <sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package>
+        <sys_parent display_value="Task">050d6d1a8d30021087de63ac7f1f00ba</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope>
+        <sys_scope_delete display_value="">2e1d08bdab234c1caad692cb642d3144</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_6c02b3dc83210210349455a6feaad3d9</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_6c02b3dc83210210349455a6feaad3d9">2a92b31083610210349455a6feaad34b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 06:20:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
