@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Marketing EventStS</name>
+        <order>100</order>
+        <roles>x_1316055_event_ma.marketing_event_table_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 05:37:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>20a279da4785c610371473d7826d436a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Marketing Even_1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope>
+        <sys_update_name>sys_app_application_20a279da4785c610371473d7826d436a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-06 19:35:18</sys_updated_on>
+        <title>Marketing Even_1</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management Application">a060014647cd4610371473d7826d43b6</application>
+        <file_path/>
+        <instance_id>fb6ede52db894e182f082a59139619f8</instance_id>
+        <instance_name>dev248345</instance_name>
+        <name>sys_app_application_20a279da4785c610371473d7826d436a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Marketing EventStS</name>
+        <order>100</order>
+        <roles>x_1316055_event_ma.marketing_event_table_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 05:37:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>20a279da4785c610371473d7826d436a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Marketing Even_1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope>
+        <sys_update_name>sys_app_application_20a279da4785c610371473d7826d436a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-06 19:35:18</sys_updated_on>
+        <title>Marketing Even_1</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>-73158932</payload_hash>
+        <record_name>Marketing Even_1</record_name>
+        <reverted_from/>
+        <source>9d21840c83e1c610349455a6feaad35a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-08 18:07:00</sys_created_on>
+        <sys_id>8721480c83e1c610349455a6feaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ebee45ab60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-08 18:07:00</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>8321480c31e1c6104fe24af094359588</update_guid>
+        <update_guid_history>8321480c31e1c6104fe24af094359588:0,e2eef37bf0d1c610172047a8628b61aa:-1922419501,15324edfca510610e91dc9a83eb7ef04:-110319514,adf0ce9fe4510610d8a5ac096f0bbac3:0,cb30ca5f25510610f31799651ba390bf:-893869550,a3dd795bfa510610ddccec37ab4c21c4:0,60ecbdd73a51061043fed4dcd981e917:-1467176832,2cb6f44292d5021010cdd8bf94bcaf8f:-894667412</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Marketing Even_1">5e401df883e94210349455a6feaad3cf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-11 07:48:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>4a0dcb60a71b4e80a15d6d6564cae900</sys_id>
+        <sys_metadata>20a279da4785c610371473d7826d436a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Marketing Even_1</sys_name>
+        <sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope>
+        <sys_scope_delete display_value="">2e1d08bdab234c1caad692cb642d3144</sys_scope_delete>
+        <sys_update_name>sys_app_application_20a279da4785c610371473d7826d436a</sys_update_name>
+        <sys_update_version display_value="sys_app_application_20a279da4785c610371473d7826d436a">8721480c83e1c610349455a6feaad388</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-11 07:48:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
