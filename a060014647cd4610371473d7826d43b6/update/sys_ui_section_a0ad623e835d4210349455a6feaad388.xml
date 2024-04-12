@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 10:24:22</sys_created_on>
-            <sys_id>418a3e3e839d4210349455a6feaad359</sys_id>
+            <sys_created_on>2024-04-12 10:12:55</sys_created_on>
+            <sys_id>610b7e4583e5c210349455a6feaad3d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1316055_event_ma_marketing_event_table" sys_domain="global" view="Default view">a0ad623e835d4210349455a6feaad388</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 10:24:22</sys_updated_on>
+            <sys_updated_on>2024-04-12 10:12:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>budgat</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 10:24:22</sys_created_on>
-            <sys_id>c58a3e3e839d4210349455a6feaad359</sys_id>
+            <sys_created_on>2024-04-12 10:12:55</sys_created_on>
+            <sys_id>e50b7e4583e5c210349455a6feaad3d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1316055_event_ma_marketing_event_table" sys_domain="global" view="Default view">a0ad623e835d4210349455a6feaad388</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 10:24:22</sys_updated_on>
+            <sys_updated_on>2024-04-12 10:12:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 10:24:22</sys_created_on>
-            <sys_id>4d8a3e3e839d4210349455a6feaad359</sys_id>
+            <sys_created_on>2024-04-12 10:12:55</sys_created_on>
+            <sys_id>7d0b7e4583e5c210349455a6feaad3d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1316055_event_ma_marketing_event_table" sys_domain="global" view="Default view">a0ad623e835d4210349455a6feaad388</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 10:24:22</sys_updated_on>
+            <sys_updated_on>2024-04-12 10:12:55</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,69 +46,97 @@
             <element>start_date</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 10:24:22</sys_created_on>
-            <sys_id>c18a3e3e839d4210349455a6feaad35a</sys_id>
+            <sys_created_on>2024-04-12 10:12:55</sys_created_on>
+            <sys_id>f10b7e4583e5c210349455a6feaad3d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1316055_event_ma_marketing_event_table" sys_domain="global" view="Default view">a0ad623e835d4210349455a6feaad388</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 10:24:22</sys_updated_on>
+            <sys_updated_on>2024-04-12 10:12:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 10:12:55</sys_created_on>
+            <sys_id>790b7e4583e5c210349455a6feaad3d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1316055_event_ma_marketing_event_table" sys_domain="global" view="Default view">a0ad623e835d4210349455a6feaad388</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 10:12:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>city</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 10:24:22</sys_created_on>
-            <sys_id>498a3e3e839d4210349455a6feaad35a</sys_id>
+            <sys_created_on>2024-04-12 10:12:55</sys_created_on>
+            <sys_id>fd0b7e4583e5c210349455a6feaad3d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1316055_event_ma_marketing_event_table" sys_domain="global" view="Default view">a0ad623e835d4210349455a6feaad388</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 10:24:22</sys_updated_on>
+            <sys_updated_on>2024-04-12 10:12:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sponser</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 10:12:55</sys_created_on>
+            <sys_id>750b7e4583e5c210349455a6feaad3d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1316055_event_ma_marketing_event_table" sys_domain="global" view="Default view">a0ad623e835d4210349455a6feaad388</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 10:12:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 10:24:22</sys_created_on>
-            <sys_id>cd8a3e3e839d4210349455a6feaad35a</sys_id>
+            <sys_created_on>2024-04-12 10:12:55</sys_created_on>
+            <sys_id>f90b7e4583e5c210349455a6feaad3d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1316055_event_ma_marketing_event_table" sys_domain="global" view="Default view">a0ad623e835d4210349455a6feaad388</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 10:24:22</sys_updated_on>
+            <sys_updated_on>2024-04-12 10:12:55</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number_of_attendees_expected</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 10:24:22</sys_created_on>
-            <sys_id>458a3e3e839d4210349455a6feaad35b</sys_id>
+            <sys_created_on>2024-04-12 10:12:55</sys_created_on>
+            <sys_id>390bb68583e5c210349455a6feaad371</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1316055_event_ma_marketing_event_table" sys_domain="global" view="Default view">a0ad623e835d4210349455a6feaad388</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 10:24:22</sys_updated_on>
+            <sys_updated_on>2024-04-12 10:12:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number_of_attendees_registered</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 10:24:22</sys_created_on>
-            <sys_id>c98a3e3e839d4210349455a6feaad35b</sys_id>
+            <sys_created_on>2024-04-12 10:12:55</sys_created_on>
+            <sys_id>bd0bb68583e5c210349455a6feaad371</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1316055_event_ma_marketing_event_table" sys_domain="global" view="Default view">a0ad623e835d4210349455a6feaad388</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 10:24:22</sys_updated_on>
+            <sys_updated_on>2024-04-12 10:12:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="4bffbaf283dd4210349455a6feaad38d" extends="sys_import_set_row" label="Marketing Events CSV" max_length="40" name="x_1316055_event_ma_marketing_events_csv" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Budget " label="Budget " max_length="40" name="u_budget_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Budget " label="Budget " max_length="40" name="u_budget_" type="currency"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=End date " label="End date " max_length="40" name="u_end_date_" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=field_7" label="field_7" max_length="40" name="u_field_7" type="string"/>
