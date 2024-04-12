@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="live_feed=true" db_object_id="f3dfa19e4781c610371473d7826d43de" label="Marketing Event " max_length="40" name="x_1316055_event_ma_marketing_event_table" type="collection">
-        <element label="Budgat" max_length="20" name="budgat" type="currency"/>
+        <element label="Budget" max_length="20" name="budgat" type="currency"/>
         <element choice="1" label="City" max_length="40" name="city" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Sydney" value="6"/>
-                <element inactive_on_update="false" label="•&#9;Dallas" value="1"/>
-                <element inactive_on_update="false" label="•&#9;Kansas City" value="2"/>
-                <element inactive_on_update="false" label="•&#9;London" value="3"/>
-                <element inactive_on_update="false" label="•&#9;London" value="4"/>
-                <element inactive_on_update="false" label="•&#9;Portland" value="5"/>
+                <element inactive_on_update="false" label="Sydney" sequence="0" value="6"/>
+                <element inactive_on_update="false" label="Dallas" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Kansas City" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="London" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="London" sequence="4" value="3"/>
+                <element inactive_on_update="false" label="Portland" sequence="5" value="5"/>
             </choice>
         </element>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
@@ -17,7 +17,7 @@
         <element label="Number of attendees registered" max_length="40" name="number_of_attendees_registered" type="integer"/>
         <element label="Sponser" max_length="100" name="sponser" type="string"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
-        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

@@ -20,15 +20,15 @@
             <element>cost</element>
             <list_id display_value="x_1316055_event_ma_equipment_request" element="NULL" name="x_1316055_event_ma_equipment_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c19eb68983e5c210349455a6feaad320</list_id>
             <max_value>true</max_value>
-            <min_value>true</min_value>
+            <min_value>false</min_value>
             <position>1</position>
             <sum>true</sum>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-04-12 10:28:27</sys_created_on>
             <sys_id>4d9eb68983e5c210349455a6feaad320</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-12 10:37:12</sys_updated_on>
+            <sys_updated_on>2024-04-12 10:57:48</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
