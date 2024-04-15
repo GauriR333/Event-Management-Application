@@ -30,20 +30,25 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	var cost = 0;
+	//var cost = 0;
 	var mrEventSysid = current.sys_id;
 	var budget = current.budget;
 	var eventName = current.name;
 	//Calculation for get total cost for this event
-	var equipment = new GlideRecord('x_1316055_event_ma_marketing_event_table');
-	equipment.addQuery('marketing_event', mrEventSysid);
-	equipment.query();
-	while (equipment.next()) {
-		cost = cost + parseFloate(equipment.cost.getCurrencyValue());
-	}
+	var equipment = new totalCost(mrEventSysid);
+
+	var cost = equipment.getCost();
+	//var equipment = new GlideRecord('x_1316055_event_ma_marketing_event_table');//this is old
+
+	// equipment.addQuery('marketing_event', mrEventSysid);
+	// equipment.query();
+	// while (equipment.next()) {
+	// 	cost = cost + parseFloate(equipment.cost.getCurrencyValue());
+	// }
 	gs.addInfoMessage('The total cost of ' + eventName + 'is' + cost + '.');
-	if(cost>budget){
-		gs.addInfoMessage('Equipment cost for '+eventName+'exceed the event budget.');
+	
+	if (cost > budget) {
+		gs.addErrorMessage('Equipment cost for ' + eventName + 'exceed the event budget.');
 	}
 
 })(current, previous);]]></script>
@@ -53,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ef5a3cbd83210210349455a6feaad3af</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Calculate total cost</sys_name>
         <sys_overrides/>
         <sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package>
@@ -61,7 +66,7 @@
         <sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope>
         <sys_update_name>sys_script_ef5a3cbd83210210349455a6feaad3af</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-14 09:11:10</sys_updated_on>
+        <sys_updated_on>2024-04-15 06:47:51</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
