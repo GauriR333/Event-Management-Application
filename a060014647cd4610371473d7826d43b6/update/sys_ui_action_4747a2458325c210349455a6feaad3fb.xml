@@ -35,10 +35,12 @@
 	var burget = current.burget;
 	var markEvent = current.sys_id;
 	var eventName = current.name;
+
 	//Get the total cost of all equipment for this event	
+
 	var equipment = new totalcost(markEvent);
-	var cost=equipment.getcost();
-	gs.addInfoMessage('The total cost of '+eventName+'is'+cost+'.');
+	var cost = equipment.getCost();
+	//gs.addInfoMessage('The total cost of ' + eventName + 'is' + cost + '.');
 
 	// equipment.addQuery('marketing_event', markEvent);
 	// equipment.query();
@@ -48,13 +50,26 @@
 	//Display cost and budget error
 
 
-	// comepare cost to budget 
 	//gs.addInfoMessage('The totale cost of' + eventName + 'is' + cost + '.');
-	if(cost>burget){
-		gs.addErrorMessage('Equipment cost for '+eventName+'exceed the event budget.');
+
+	// comepare cost to budget 
+
+	if (cost > burget) {
+		gs.addErrorMessage('Equipment cost for ' + eventName + 'exceed the event budget.');
 	}
+
+	//populate cost
+	current.event_cost = cost;
+
+	//populate Budget remaining
+	var remainning = budget - cost;
+
+	current.budget_remaining = remainning;
+
+	current.update();
+	
 	action.setRedirectURL(current);
-	(current, typeof previous != 'undefined' ?  previous : null);
+	(current, typeof previous != 'undefined' ? previous : null);
 
 
 }
@@ -69,7 +84,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4747a2458325c210349455a6feaad3fb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Show event cost</sys_name>
         <sys_overrides/>
         <sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package>
@@ -77,7 +92,7 @@
         <sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope>
         <sys_update_name>sys_ui_action_4747a2458325c210349455a6feaad3fb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-15 06:36:23</sys_updated_on>
+        <sys_updated_on>2024-04-15 07:28:41</sys_updated_on>
         <table>x_1316055_event_ma_marketing_event_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
