@@ -2,31 +2,45 @@
     <sys_ui_related sys_domain="global" table="x_1316055_event_ma_equipment_request" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Equipment Request  - Default view" name="x_1316055_event_ma_equipment_request" related_list="NULL" sys_domain="global" view="Default view">bcc954a083250210349455a6feaad398</list_id>
+            <list_id display_value="Equipment Request  - Default view" name="x_1316055_event_ma_equipment_request" related_list="NULL" sys_domain="global" view="Default view">9baf770e83294210349455a6feaad388</list_id>
             <order_by/>
             <position>0</position>
             <related_list>sysapproval_approver.sysapproval</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-10 09:11:23</sys_created_on>
-            <sys_id>3cc954a083250210349455a6feaad399</sys_id>
+            <sys_created_on>2024-04-15 17:46:46</sys_created_on>
+            <sys_id>d7af770e83294210349455a6feaad389</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-10 09:11:23</sys_updated_on>
+            <sys_updated_on>2024-04-15 17:46:46</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Equipment Request  - Default view" name="x_1316055_event_ma_equipment_request" related_list="NULL" sys_domain="global" view="Default view">bcc954a083250210349455a6feaad398</list_id>
+            <list_id display_value="Equipment Request  - Default view" name="x_1316055_event_ma_equipment_request" related_list="NULL" sys_domain="global" view="Default view">9baf770e83294210349455a6feaad388</list_id>
             <order_by/>
             <position>1</position>
             <related_list>task.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-10 09:11:23</sys_created_on>
-            <sys_id>30c954a083250210349455a6feaad39a</sys_id>
+            <sys_created_on>2024-04-15 17:46:46</sys_created_on>
+            <sys_id>dbaf770e83294210349455a6feaad389</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-10 09:11:23</sys_updated_on>
+            <sys_updated_on>2024-04-15 17:46:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Equipment Request  - Default view" name="x_1316055_event_ma_equipment_request" related_list="NULL" sys_domain="global" view="Default view">9baf770e83294210349455a6feaad388</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>ecc_event.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-15 17:46:46</sys_created_on>
+            <sys_id>dfaf770e83294210349455a6feaad389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-15 17:46:46</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Equipment Request  - Default view</calculated_name>
@@ -37,10 +51,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-10 09:11:23</sys_created_on>
+            <sys_created_on>2024-04-15 17:46:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bcc954a083250210349455a6feaad398</sys_id>
+            <sys_id>9baf770e83294210349455a6feaad388</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Equipment Request  - Default view</sys_name>
             <sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package>
@@ -48,7 +62,7 @@
             <sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope>
             <sys_update_name>sys_ui_related_x_1316055_event_ma_equipment_request_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-10 09:11:23</sys_updated_on>
+            <sys_updated_on>2024-04-15 17:46:46</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
