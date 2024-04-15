@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1316055_event_ma.totalCost</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Generate the total cost of a marketing event based on th equipment requests assosiate with it. Compare the total cost to the budget.</description>
+        <name>totalCost</name>
+        <script><![CDATA[var totalCost = Class.create();
+totalCost.prototype = {
+	initialize: function (mrEventSysid) {
+		this.mrEventSysid = mrEventSysid;
+	},
+
+	getCost: function () {
+		var cost = 0;
+		//Get the total cost of all equipment for this event
+
+		var equipment = new GlideRecord(x_1316055_event_ma_equipment_request);
+		equipment.addQuery('markething_event', this.mrEventSysid);
+		equipment.query();
+		while (equipment.next()) {
+			cost = cost + parseFloat(equipment.cost.getCurrencyValue());
+		}
+		return cost;
+	},
+	type: 'totalCost'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-15 06:05:15</sys_created_on>
+        <sys_id>c931d1c283e90210349455a6feaad386</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>totalCost</sys_name>
+        <sys_package display_value="Event Management Application" source="x_1316055_event_ma">a060014647cd4610371473d7826d43b6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Management Application">a060014647cd4610371473d7826d43b6</sys_scope>
+        <sys_update_name>sys_script_include_c931d1c283e90210349455a6feaad386</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 06:08:59</sys_updated_on>
+    </sys_script_include>
+</record_update>
