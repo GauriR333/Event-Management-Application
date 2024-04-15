@@ -18,6 +18,8 @@
         <element label="Sponser" max_length="100" name="sponser" type="string"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="omit_sys_original=true" label="Budget remening" max_length="20" name="u_currency_3" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Event cost" max_length="20" name="u_event_cost" read_only="true" type="currency"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
